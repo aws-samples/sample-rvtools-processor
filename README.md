@@ -84,15 +84,11 @@ python rvtools_processor.py -h
 
 The data flow in this application follows these steps:
 
-Input: RVTools export files (CSV/xlsx format)
-
-Processing - 
-
-Anonymization: Replace sensitive data with unique identifiers
-
-De-anonymization: Map identifiers back to original values
-
-Output: New processed files (anonymized or de-anonymized)
+1. Input: RVTools export files (Excel/CSV format)
+2. Processing:
+- Anonymization: Replace sensitive data with unique identifiers
+- De-anonymization: Map identifiers back to original values
+3. Output: New processed files (anonymized or de-anonymized)
 
 ## Read More
 
