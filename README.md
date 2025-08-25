@@ -80,6 +80,20 @@ python rvtools_processor.py -h
    - Error message: `PermissionError: [Errno 13] Permission denied`
    - Solution: Verify write permissions in output directory
 
+## Data Flow
+
+The data flow in this application follows these steps:
+
+Input: RVTools export files (CSV/xlsx format)
+Processing:
+Anonymization: Replace sensitive data with unique identifiers
+De-anonymization: Map identifiers back to original values
+Output: New processed files (anonymized or de-anonymized)
+
+## Read More
+
+https://aws.amazon.com/blogs/TBC
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
