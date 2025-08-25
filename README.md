@@ -86,8 +86,10 @@ The data flow in this application follows these steps:
 
 Input: RVTools export files (CSV/xlsx format)
 
-Processing
+Processing - 
+
 Anonymization: Replace sensitive data with unique identifiers
+
 De-anonymization: Map identifiers back to original values
 
 Output: New processed files (anonymized or de-anonymized)
